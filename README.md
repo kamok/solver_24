@@ -19,13 +19,9 @@ Or install it yourself as:
 
 ## Usage
 
-To show one solution eg: ( 1.0 + 2.0 + 3.0 ) * 4.0 = 24
+This returns an array of solutions eg: ["( 1.0 + 2.0 + 3.0 ) * 4.0", "( 1.0 * 2.0 ) * 3.0 * 4.0"...]
 
 `Solver_24.new.solve([1,2,3,4])`
-
-To return an array of solutions eg: ["( 1.0 + 2.0 + 3.0 ) * 4.0", "( 1.0 * 2.0 ) * 3.0 * 4.0"...]
-
-`Solver_24.new.show_all_solutions`
 
 ## Development
 

@@ -12,17 +12,9 @@ class Solver_24
 
   def solve(a)                         
     make_possible_solutions(get_sets_of_numbers(a))
-
     find_solutions
-
-    puts "#{solutions.first} = 24"
+    solutions
   end 
-
-  def show_all_solutions(a)
-    make_possible_solutions(get_sets_of_numbers(a))
-    find_solutions
-    p solutions
-  end
 
   def get_sets_of_numbers(a)
     a.permutation(4).to_a.tap do |numbers|
