@@ -1,8 +1,5 @@
 # Solver24
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/solver_24`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Lists all solutions to any 24 math game problems.
 
 ## Installation
 
@@ -22,7 +19,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To show one solution eg: ( 1.0 + 2.0 + 3.0 ) * 4.0 = 24
+
+`Solver_24.new.solve([1,2,3,4])`
+
+To return an array of solutions eg: ["( 1.0 + 2.0 + 3.0 ) * 4.0", "( 1.0 * 2.0 ) * 3.0 * 4.0"...]
+
+`Solver_24.new.show_all_solutions`
 
 ## Development
 

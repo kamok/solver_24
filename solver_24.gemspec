@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ka_Lenovo"]
   spec.email         = ["heykamok@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Shows possible solutions to any problems in the 24 math game}
+  spec.homepage      = "https://github.com/kamok/solver_24"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
